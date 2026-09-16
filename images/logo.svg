@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" width="280" height="64" fill="none">
+  <!-- Medical Red Cross & Star of life symbol with ambulance motif -->
+  <defs>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E63946" />
+      <stop offset="100%" stop-color="#C52233" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D3557" />
+      <stop offset="100%" stop-color="#0B1B2B" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Icon Container -->
+  <g transform="translate(6, 6)">
+    <!-- Rounded badge background -->
+    <rect width="52" height="52" rx="12" fill="url(#redGrad)" filter="url(#shadow)" />
+    
+    <!-- White Medical Cross / Star of Life motif -->
+    <path d="M 21 13 L 31 13 A 2 2 0 0 1 33 15 L 33 21 L 39 21 A 2 2 0 0 1 41 23 L 41 29 A 2 2 0 0 1 39 31 L 33 31 L 33 37 A 2 2 0 0 1 31 39 L 21 39 A 2 2 0 0 1 19 37 L 19 31 L 13 31 A 2 2 0 0 1 11 29 L 11 23 A 2 2 0 0 1 13 21 L 19 21 L 19 15 A 2 2 0 0 1 21 13 Z" fill="#FFFFFF" />
+    
+    <!-- Red heartbeat / pulse in center -->
+    <path d="M 17 26 L 22 26 L 24 22 L 27 30 L 29 24 L 31 26 L 35 26" stroke="#E63946" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(68, 12)">
+    <!-- MAHESH -->
+    <text x="0" y="19" font-family="'Montserrat', 'Inter', 'Segoe UI', sans-serif" font-weight="900" font-size="20" fill="#0B1B2B" letter-spacing="1.5">MAHESH</text>
+    <!-- AMBULANCE SERVICE -->
+    <text x="0" y="36" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="700" font-size="11.5" fill="#E63946" letter-spacing="2.8">AMBULANCE SERVICE</text>
+  </g>
+</svg>
